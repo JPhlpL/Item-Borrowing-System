@@ -1,0 +1,30 @@
+.passwordshow {
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+    display: none;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    top: 10px;
+}
+    .pass-key:valid ~ .passwordshow{
+      display: block;
+    }
+
+    .confirm-passwordshow {
+        position: absolute;
+        right: 13px;
+        font-size: 13px;
+        font-weight: 700;
+        color: #222;
+        display: none;
+        cursor: pointer;
+        font-family: 'Montserrat',sans-serif;
+        top: 10px;
+    }
+        .confirm-pass-key:valid ~ .confirm-passwordshow{
+          display: block;
+        }
+     

@@ -1,0 +1,45 @@
+.container {
+    max-width: 64%;
+    size: 50px;
+    width: 100%;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 25px;
+    box-shadow: 0 7.5px 3px rgb(205, 210, 214);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(232, 234, 238);
+    background-size: 100%;
+}
+.eyeicon
+{
+    position: relative;
+    bottom: 38px;
+}
+.eyeicon2
+{
+    position: relative;
+    bottom: 54px;
+}
+
+.myButtonStyle1{
+width: 100% !important;
+}
+.myButtonStyle2{
+width: 100% !important;
+}
+.myButtonStyle3{
+width: 100% !important;
+}
+.myButtonStyle4{
+width: 100% !important;
+}
+.line
+{
+    min-height: 3px !important;
+    background: #506681 !important;
+
+}
